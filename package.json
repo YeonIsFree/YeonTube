@@ -1,0 +1,21 @@
+{
+  "name": "yeontube",
+  "version": "1.0.0",
+  "description": "Youtube clone coding project",
+  "scripts": {
+    "dev": "nodemon --exec babel-node src/init.js "
+  },
+  "author": "YeonIsFree",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.2",
+    "morgan": "^1.10.0",
+    "pug": "^3.0.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.17.0",
+    "@babel/node": "^7.16.8",
+    "@babel/preset-env": "^7.16.11",
+    "nodemon": "^2.0.15"
+  }
+}
